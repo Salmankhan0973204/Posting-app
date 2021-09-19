@@ -1,0 +1,10 @@
+
+<mat-card>
+  <form [formGroup]="newlogin" (ngSubmit)="click()">
+   <Label>Email</Label><br>
+      <input formControlName="email" type="email"><br><br>
+      <Label>Password</Label><br>
+      <input formControlName="password" type="password"><br><br>
+      <button  type="submit" class="btn btn-primary">Add Post</button>
+  </form>
+  </mat-card>

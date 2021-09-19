@@ -1,0 +1,10 @@
+.mat-card {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  background: rgb(86, 196, 172);
+  padding: auto;
+  align-items: center;
+
+  width: 15%;
+}

@@ -1,0 +1,13 @@
+<mat-card *ngFor="let data of userdata; let i = index">
+  <h2>{{data.fname}}  {{data.lname}}</h2>
+
+  <p>{{data.post}}</p>
+  <hr>
+  <p>Like:{{data.like}}</p>
+  <p>Dislike: {{data.dislike}}</p>
+  <button (click)="submit(i)" style="float: right; display: block;" class="btn btn-primary"><i class="fa fa-trash" aria-hidden="true"></i></button>
+  <button (click)="counter(i)" style="float: right;margin-right: 10px; display: block;" class="btn btn-primary"><i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+  <button (click)="dislikee(i)" style="float: right;margin-right: 10px; display: block;" class="btn btn-primary"><i class="fa fa-thumbs-down"></i></button>
+</mat-card>
+
+{{count}}
